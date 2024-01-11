@@ -4,7 +4,6 @@ This repository contains the source code for controlling the servomotor based on
 
 The face detection (and eye detection) is achieved with OpenCV's HaarCascadeClassifier for faces (and eyes). The script will detect the face based on that and draw a square around the face to visualize the result. The locational data of the detected face will be shared with the connected Arduino board to control the servomotor's position to follow the face.
 
-!!! Note
     This project requires an Arduino Uno (or clone), Arduino IDE, Python, and OpenCV library ready on your system.
 
 The `face_tracking_servo_control.py` is the main script. It will throw errors if you try to run it without connecting the Arduino board to your computer and adjust the port number in the code.
