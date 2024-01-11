@@ -7,7 +7,7 @@ import numpy as np
 face_cascade = cv.CascadeClassifier('C:\\Users\\logan\\miniconda3\\envs\\data_science\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml')
 eye_cascade = cv.CascadeClassifier('C:\\Users\\logan\\miniconda3\\envs\\data_science\\Lib\\site-packages\\cv2\\data\\haarcascade_eye.xml')
 
-img = cv.imread('source_img/face_3.jpg')  # location of image you want to detect a face from
+img = cv.imread('source_img/test.jpg')  # location of image you want to detect a face from
 gray_image = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 

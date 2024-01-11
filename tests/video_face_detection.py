@@ -1,6 +1,5 @@
 """ 
 Script's function: face recognition based on video streaming with laptop camera
-
 Adjust the path of CascadeClassifier when necessary.
 Press the ESC key to close the window.
 """
